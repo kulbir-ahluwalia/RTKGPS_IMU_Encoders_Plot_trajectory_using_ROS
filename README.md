@@ -6,6 +6,8 @@ In the PLOTS pdf, Qn 2, we see that when we use IMU+encoders, we get errors in y
 
 Whereas in Qn3, when only GPS is used, we get a straight line trajectory.
 
+Refer to PLOTS pdf for trajectory plots.
+
 ## Instructions to get the trajectory plots from the ROSBAG of the real field robot:
 1. Extract ```coding_ex_1.zip``` in your ```~/catkin_ws/src``` folder.
 2. ```cd ~/catkin_ws``` and then ```catkin_make```.

@@ -2,7 +2,7 @@
 
 In this project, we Processed data from RTK-GPS, IMU and encoders to plot the trajectory of a field robot in RViz. The pose and twist of the robot are also published using an Odometry ROS message.
 
-In the PLOTS pdf Qn 2, we see that when we use IMU+encoders, we get errors in yaw angle due to noise in gyroscope readings.  Hence, the trajectory looks like a polygon with sharp changes in yaw which influences the (x,y) position at the subsequent time step(t+1).
+In the PLOTS pdf, Qn 2, we see that when we use IMU+encoders, we get errors in yaw angle due to noise in gyroscope readings.  Hence, the trajectory looks like a polygon with sharp changes in yaw which influences the (x,y) position at the subsequent time step(t+1).
 
 Whereas in Qn3, when only GPS is used, we get a straight line trajectory.
 
